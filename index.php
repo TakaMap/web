@@ -137,7 +137,7 @@ $all_categories = mysqli_query($con, $sql);
                                                 ?>" type="checkbox" name="<?php echo $category["name"];
                                                         // The value we usually set is the primary key
                                                         ?>" />
-                                <img width="20" height="20" src="admin/pages/<?php echo $category["iconpath"]; ?>" alt="">
+                                <img width="20" height="20" src="https://admin.takamap.com/pages/<?php echo $category["iconpath"]; ?>" alt="">
 
                                 <p style="font-size: 14px;"><?php echo $category["name"]; ?> <?php echo " (" . $category["total_ins"] . ") "; ?></p>
                                 
